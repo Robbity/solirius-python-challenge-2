@@ -1,13 +1,10 @@
-## Pricing Scraper Challenge 🕵️‍♂️
+## Pricing Scraper Challenge
 
 Our competitor just launched a new store. We need to monitor their pricing, but they don't have a public API. We managed to save a copy of their search results page, and now we need to extract the data programmatically to feed into our pricing engine.
 
----
 
 ### Your Task
 Write a Python script that reads `fake_store_page.html` and uses **BeautifulSoup** to parse product information and calculate pricing statistics.
-
----
 
 ### Rules
 - **Required library:** `beautifulsoup4`
@@ -24,12 +21,9 @@ Write a Python script that reads `fake_store_page.html` and uses **BeautifulSoup
 - Calculate the **average price** of in-stock items
   - Round the result to **2 decimal places**
 
----
-
 ### Goal
 Correctly compute the average price of all **in-stock** items from the page.
 
----
 
 ### How to Run
 ```bash
